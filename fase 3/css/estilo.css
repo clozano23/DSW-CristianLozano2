@@ -1,0 +1,31 @@
+header{
+    background-color: #FCE2DB;
+}
+
+nav{
+    background-color: blueviolet;
+}
+
+section{
+    grid-column: 1/4;
+    background-color: aquamarine;
+}
+
+aside{
+    grid-column: 4/5;
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: beige;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
