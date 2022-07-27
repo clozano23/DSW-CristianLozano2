@@ -29,3 +29,13 @@ main{
     flex-direction: row;
     justify-content: space-between ;
 }
+.pdfview{
+margin: auto;
+display: block;
+width: 850px;
+height: 100vh;
+}
+.tittle{
+    text-align: center;
+    color: #5800FF;
+}
