@@ -1,23 +1,31 @@
 header{
-    background-color: #FCE2DB;
+    background-color: #EAF6F6;
 }
 
 nav{
-    background-color: blueviolet;
+    background-color: #EAF6F6;
 }
+
 
 section{
     grid-column: 1/4;
-    background-color: aquamarine;
+    background-color: #EAF6F6;
 }
-
+h2{
+    font-size: 5rem;
+    margin: auto
+}
+h7{
+    font-size: 1.2rem;
+}
 aside{
-    grid-column: 4/5;
-    background-color: antiquewhite;
-}
+    text-align: left;
+    grid-column: 2/5;
+    background-color: #EAF6F6;
+ }
 
 footer{
-    background-color: beige;
+    background-color: #EAF6F6;
 }
 
 main{
@@ -38,4 +46,7 @@ height: 100vh;
 .tittle{
     text-align: center;
     color: #5800FF;
+}
+img{
+    margin-right: 20px;
 }
